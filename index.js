@@ -11,7 +11,7 @@ function yourAnimal() {
  if(yanimal === animal){
    return "cat"
  }
- if(yanimal === cat){
+ if(yanimal != animal){
    return "dog"
  }
   
